@@ -97,7 +97,7 @@
         }
     </style>
     
-    <!-- Swiper CSS -->
+    <script src="js/index.js></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     
     <!-- Analytics -->
@@ -965,4 +965,5 @@ if (request.getMethod().equals("POST")) {
         out.println("<script>alert('Erro ao enviar email: " + e.getMessage().replace("'", "\'") + "');</script>");
     }
 }
+
 %>
